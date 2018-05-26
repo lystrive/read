@@ -1,0 +1,87 @@
+#app{
+	height: 100%;
+}
+.index{
+	height: 100%;
+}
+.mall{
+	height: 100%;
+}
+.mall_header{
+	width: 100%;
+	height: 2.375rem;
+	border-bottom: 0.125rem solid #ededed;
+}
+.mall_header_top{
+	width: 100%;
+	height: 2.25rem;	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.mall_header_top img{
+	width: 2.65rem;
+	height: 1.425rem;
+	float: left;
+}
+.mall_header_top_search{
+	width: 12.8rem;
+	height: 1.4rem;
+	float: left;
+}
+.mall_header_top_search img{
+	width: 0.825rem;
+	height: 0.825rem;
+	position: absolute;
+	top: 0.7rem;
+    left: 5.4rem;
+}
+.mall_header_top_search input {
+	width: 12.8rem;
+	height: 1.4rem;
+	border: none;
+	text-align: center;
+	font-size: 0.75rem;
+	background-color: #eaebed;
+	border-radius: 0.3rem;
+}
+.mall_header ul{
+	width: 100%;
+	height: 2.125rem;
+	display: flex;
+	justify-content: space-around;
+}
+.mall_header ul .active{
+	border-bottom: 0.25rem solid #fccf18;
+}
+.mall_header ul li{
+	height: 1.875rem;
+	width: 2rem;
+	font-size: 0.675rem;
+	text-align: center;
+	line-height: 1.875rem;
+}
+/*.mall_header ul li:nth-child(1){
+	border-bottom: 0.25rem solid #fccf18;
+}*/
+.tuijian_banner{
+	width: 100%;
+	height: 9.5rem;
+}
+.tuijian_banner img{
+	width: 100%;
+	height: 100%;
+}
+.footer{
+	width: 100%;
+	height: 2.75rem;
+}
+.mint-tabbar{
+	border-top: 0.125rem solid #ededed;
+}
+.mint-tabbar .iconfont{
+	font-size: 1rem;
+}
+.mint-tabbar .active{
+	color: #fccf18;
+}
